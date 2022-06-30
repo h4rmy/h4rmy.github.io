@@ -1,0 +1,94 @@
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+
+    font-family: 'Consolas', monospace;
+}
+
+#title {
+    color: pink;
+    font-size: 3em;
+}
+
+#links a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+}
+
+#links text {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+}
+
+#links a:hover {
+    color: pink;
+    text-shadow: 2px 2px black;
+}
+
+#links text:hover {
+    color: pink;
+    text-shadow: 2px 2px black;
+}
+
+
+#logo {
+    
+    width: 35%;
+    text-shadow: 2px 2px black;
+}
+
+#content * {
+    color: white;
+}
+
+#content table, #content table th, #content table td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+#cntnt * {
+    color: white;
+}
+
+#cntnt table, #cntnt table th, #cntnt table td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: auto;
+    opacity: 10%;
+}
+
+html, body {
+    background-color: #111;
+}
+
+a.hidden {
+    text-decoration: none;
+    color: inherit;
+    text-shadow: 4px 4px black;
+}
+
+a.hidden:active {
+    color: inherit;
+    text-shadow: 4px 4px black;
+}

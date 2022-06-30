@@ -1,0 +1,22 @@
+</div>
+</div>
+</body>
+  <!-- Script -->
+  <script type="text/javascript">
+    var pathElement = document.querySelector('#listing h1');
+    pathElement.className = 'listing';
+
+    var pathName = pathElement.innerHTML;
+    pathName = pathName.replace('Index of ', '');
+    pathElement.innerHTML = pathName;
+
+    var fileCount = 0
+      ,dirCount = 0
+      ,dirStatElem = document.getElementById('dir-stats')
+      ,fileStatElem = document.getElementById('file-stats')
+    ;
+
+    var allLinks = document.getElementsByTagName('a');
+
+  </script>
+</html>

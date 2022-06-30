@@ -1,0 +1,46 @@
+<!-- totally not stolen -->
+<link rel="stylesheet" href="style.css">
+
+<title>sosupi.su</title>
+
+<script>
+    function copyDivToClipboard() {
+        var range = document.createRange();
+        range.selectNode(document.getElementById("discord"));
+        window.getSelection().removeAllRanges(); // clear current selection
+        window.getSelection().addRange(range); // to select text
+        document.execCommand("copy");
+        window.getSelection().removeAllRanges();// to deselect
+    }
+</script>
+
+<class id="discord">h4rmy#6704</class>
+
+<div class="center">
+    <div id="title">
+        <a href="/" class="hidden">h4rmy</a>
+    </div>
+
+    <div id="links">
+        <a href="/">[<--]</a>
+        <br>
+        <a href="https://vk.com/hvh0wnz">[vk]</a>
+        <a href="https://t.me/h4rmy">[telegram]</a>
+        <text id="dscrd">[discord]</a>
+        <br>
+        <a href="https://www.youtube.com/channel/UCs7SVRJt8Ed5M1rPiAIUuug">[yt]</a>
+        <a href="https://www.reddit.com/user/xh4rmy">[reddit]</a>
+        <a href="https://steamcommunity.com/profiles/76561198801648661">[steam]</a>
+        <a href="https://github.com/h4rmy">[github]</a>
+    </div>
+    <script>
+        var a = document.getElementById('dscrd');
+        a.addEventListener('click', function(){ copyDivToClipboard(); alert('copied to clipboard')}, false);
+    </script>
+    
+    <div id="content">
+        <br>
+        <br>
+        <img id="logo" src="mfw.svg">
+    </div>
+</div>
