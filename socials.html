@@ -4,17 +4,17 @@
 <title>sosupi.su</title>
 
 <script>
-    function copyDivToClipboard() {
-        var range = document.createRange();
-        range.selectNode(document.getElementById("discord"));
-        window.getSelection().removeAllRanges(); // clear current selection
-        window.getSelection().addRange(range); // to select text
-        document.execCommand("copy");
-        window.getSelection().removeAllRanges();// to deselect
+    async function copydiscord() {
+        try {
+            await navigator.clipboard.writeText('h4rmy#6704');
+            ds.style.display='block';
+            setTimeout("ds.style.display='none'", 2000);
+        }
+        catch (err) {
+            console.error('Error: ', err);
+        }
     }
 </script>
-
-<class id="discord">h4rmy#6704</class>
 
 <div class="center">
     <div id="title">
@@ -35,7 +35,7 @@
     </div>
     <script>
         var a = document.getElementById('dscrd');
-        a.addEventListener('click', function(){ copyDivToClipboard(); alert('copied to clipboard')}, false);
+        a.addEventListener('click', function(){ copydiscord(); alert('copied to clipboard')}, false);
     </script>
     
     <div id="content">
