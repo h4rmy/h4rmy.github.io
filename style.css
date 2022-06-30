@@ -10,9 +10,18 @@
     font-family: 'Consolas', monospace;
 }
 
+@font-face {
+    font-family: 'minecraftregular';
+    src: url('/theme/font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #title {
     color: pink;
     font-size: 3em;
+    font-family: 'minecraftregular';
+    text-shadow: 2px 2px black;
 }
 
 #links a {
